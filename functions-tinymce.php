@@ -46,6 +46,7 @@ function add_wysiwyg_editor_to_amelia_events_desc_editor(){
 			if(jQuery('#'+editor_id).position() == undefined){
 				initAmeliaEventDescTextArea();
 			}
+			// check every two seconds
 			setTimeout(doesEventDescriptionFieldExists, 2000);
 		}
 
